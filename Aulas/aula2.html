@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 2 - Formulários</title>
+    <link rel="stylesheet" href="css/aula2.css">
+</head>
+<body>
+    <form>
+        <!-- Iniciando o formulario -->
+        <label for="nome_usuario"> Nome: </label> 
+        <!-- Rotulo para o elemento do formulario -->
+        <input type="text" name="nome" id="nome_usuario">
+        <br><br>
+        <!-- Recebendo informação do usuario -->
+        <label for="sobrenome_usuario">Sobrenome: </label> 
+        <input type="text" name="sobrenome" id="sobrenome_usuario"> 
+        <br><br>
+
+        <label for ="idade_usuario">Idade:</label>
+        <input type="number" name="idade" id="idade_usuario">
+        <br><br>
+
+        <label for="senha_usuario">Senha:</label>
+        <input type="password" name="senha" id="senha_usuario">
+        <br><br>
+
+        <label for="email_usuario">Email:</label>
+        <input type="email" name="email" id="email_usuario">
+        <br><br>
+
+        <label for="recado_usuario">Recado:</label>
+        <textarea 
+        
+        name="recado"
+        id="recado_usuario"
+        rows="10"
+        cols="20"
+        placeholder="Deixe seu recado aqui...">
+        </textarea>
+        <br><br>
+       
+        <select>
+            <option value="sp">São paulo</option>
+            <option value="rj">Rio de janeiro</option>
+        </select>
+        <button type="submit" >Enviar </button>
+    </form>
+    
+</body>
+</html>

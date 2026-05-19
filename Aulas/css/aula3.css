@@ -1,0 +1,76 @@
+body{
+    background-color:#e0f7fa;
+    /* Cor do fundo */
+    margin: 0;
+    /* Removendo margens */
+    padding: 0;
+    /* Removendo espaços internos */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* Estilo da fonte */
+    color :#00796b  
+    /* Cor do texto */
+}
+h1{
+    text-align: center;
+    /* Centralizando o texto */
+    font-size: 50px;
+}
+form{
+    background-color:#ffffff;
+    /* Cor do fundo */
+    max-width: 800px;
+    /* Largura maxima */
+    padding: 20px;
+    /* Espaço interno */
+    margin: auto;
+    /* Centralizando horizontalmente */
+    border-radius: 10px;
+    /* Bordas arredondadas */
+    box-shadow: 0 0 10px gray;
+    /* Sombra leve */
+}
+label{
+    font-weight: bold;
+    /* Negrito */
+    font-size: 20px;
+    /* Tamanho da fonte */
+}
+input, select, textarea{
+    width: 100%;
+    /* Largura */
+    padding: 8px;
+    /* Espaço interno */
+    margin-top: 5px;
+    /* Margem superior */
+    border: 2px solid #00796b;
+    /* Borda input */
+    border-radius: 5px;
+    /* Bordas arredondadas */
+}
+input[type="radio"],
+input[type="checkbox"]{
+    width: auto;
+    /* Largura */
+    margin-right: 5px;
+    /* Espaço a direita+ */
+}
+button{
+    width: 100%;
+    /* Largura */
+    padding: 10px;
+    /* Espaço interno */
+    background-color: #00796b;
+    /* Cor do fundo */
+    color: #e0f7fa;
+    /* Cor do texto */
+    border: none;
+    /* Removendo a borda */
+    border-radius: 5px;
+    /* Arredondando as bordas */
+    font-size: 16px;
+    /* Tamanho da fonte */
+}
+button:hover{
+    background-color: #004d44;
+    /* Cor do fundo */
+}

@@ -1,0 +1,152 @@
+body{
+    background-color:mediumspringgreen;
+    /* Cor da fundo do elemento */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* TIpo de fonte */
+    color:darkblue;
+    /* Cor do texto */
+    margin: 0%;
+    /* Removendo margem */
+}
+
+header{
+    background-color: goldenrod;
+    /* Cor de fundo do elemento */
+    display: flex;
+    /* Itens lado a lado */
+    justify-content:space-between;
+    /* Separa o conteúdo em esquerda e direita */
+    align-items: center;
+    /* Alinhando item: centralizando */
+    padding: 30px;
+    /* Espaço interno */
+}
+
+header img{
+    width: 100px;
+    /* Largura da imagem*/
+    height: 100px;
+    /* Altura da imagem*/
+    border-radius: 10px;
+    /* Arredondando as bordas */
+}
+
+nav{
+    display: flex;
+    /* Itens lado a lado */
+    gap: 40px;
+    /* Espaço entre os botões */
+}
+
+nav a {
+    text-decoration: none;
+    /* Removendo o sublinado */
+    color: darkblue;
+    /* Cor do texto */
+    font-weight: bold;
+    /* Negrito */
+    font-size: 20px;
+    /* Tamanho da fonte */
+    padding: 10px;
+    /* Espaço interno */
+    border: 2px solid white;
+    /* Bordar */
+    border-radius: 5px;
+    /* Arredondar as bordas */
+    transition: background-color 0.3s, color 0.3s;
+    /* Transição */
+}
+nav a:hover{
+    background-color: white;
+    /* Cor do fundo */
+    color: black;
+    /* Cor do texto */
+    border-radius: 5px;
+    /* Arredondando bordas */
+}
+
+.conteudo{
+    display: flex;
+    /* Itens lado a lado */
+    gap: 40px;
+    /* Espaço entre os itens */
+    
+}
+
+main{
+
+    flex:3;
+    /* Ocupando 3 partes da tela */
+    background-color: goldenrod;
+    /* Cor do fundo do elemento */
+
+    border: 2px solid white;
+    /* Bordar */
+    border-radius: 5px;
+    /* Arredondar as bordas */
+
+    margin: 40px;
+    /* Margem externa */
+    border-radius: 15px;
+    /* Arrendondando as pontas */
+    text-align: justify;
+    /* Alinhamento justificado */
+    padding: 20px;
+    /* Espaçamento interno */
+    
+}
+
+aside{
+
+    background-color: goldenrod;
+    /* Cor do fundo */
+    flex:1; 
+    /* Ocupando 1 parte da tela */
+    padding: 5px;
+    /* Espaçamento */
+    margin: 40px;
+    /* Margem externa */
+    border: 2px solid white;
+    /* Bordar */
+    border-radius: 15px;
+    /* Arredondar as bordas */
+}
+
+article{
+    display: flex;
+    /* Itens lado a lado */
+    gap: 20px;
+    /* Espaçamento entre os elementos */
+    /* Cor do fundo */
+    padding: 5px;
+    /* Espaçamento */
+    margin: 20px;
+    /* Margem externa */
+   
+    /* Borda */
+    border-radius: 15px;
+}
+
+section{
+    background-color: goldenrod;
+    /* Cor do fundo do elemento */
+    color:black;
+    /* Cor do texto */
+    border: 2px solid white;
+    /* Borda */
+    padding: 10px;
+    /* Espaço interno */
+    text-align: center;
+    /* Alinhamento centralizado */
+}
+
+footer{
+    background-color: goldenrod;
+    /* Cor do fundo */
+    color: whitesmoke;
+    /* Cor do texto */
+    text-align: center;
+    /* Alinhamento centralizado */
+    padding: 20px;
+    /* Espaçamento interno */
+}

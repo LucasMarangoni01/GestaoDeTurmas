@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Semantica</title>
+    <link rel="stylesheet" href="css/semantica.css">
+</head>
+
+<body>
+    <header>
+        <h1>Site exemplo</h1>
+        <p>Praticando HTML semântico e formulário</p>
+    </header>
+
+    <div class="semantica">
+        <main>
+            <h2>Seção principal</h2>
+            <p>Esta é uma seção do conteúdo principal da página.
+                Aqui podemos organizar informações importantes para
+                o usuário.
+            </p>
+            <section>
+                <h3>Artigo de Destaque</h3>
+                <p>
+                    Este artigo representa um conteúdo independente dentro da página.
+                    Ele pode conter notícias, textos, publicações ou qualquer outro conteúdo.
+                </p>
+            </section>
+        </main>
+
+        <aside>
+            <h2>Informações Laterais</h2>
+            <p>
+                O aside é usado para conteúdos complementares,
+                como avisos, links úteis ou informações adicionais.
+            </p>
+        </aside>
+    </div>
+
+
+    <form>
+        <h2> Formulário de Cadastro</h2>
+        <label for="nome_usuario">Nome: </label> <br>
+        <input type="text" name="nome" id="nome_usuario">
+
+        <br><br>
+
+        <label for="idade_usuario">Idade: </label> <br>
+        <input type="number" name="idade" id="idade_usuario">
+
+        <br><br>
+
+        <label for="email_usuario">E-mail: </label> <br>
+        <input type="email" name="email" id="email_usuario">
+
+        <br><br>
+
+        <label for="senha_usuario">Senha: </label> <br>
+        <input type="password" name="senha" id="senha_usuario">
+
+        <br><br>
+
+        <label for="mensagem_usuario">Mensagem: </label>
+        <textarea name="mensagem" id="mensagem_usuario" rows="10" cols="40"
+            placeholder="Deixe seu recado para contribuir com nossa escola e site: ">
+            </textarea>
+
+        <br><br>
+
+        <button type="submit">ENVIAR</button>
+    </form>
+</body>
+
+<footer>
+    <p><small>&copy; 2026 - Pagina criada para prática de HTML e CSS</small></p>
+</footer>
+
+</html>

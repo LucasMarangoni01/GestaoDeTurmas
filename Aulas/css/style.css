@@ -1,0 +1,25 @@
+body{
+    background-color: blanchedalmond;
+    /* Cor do fundo da pagina */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* Fonte de todo o texto da página */
+
+}
+img {
+    width: 200px;
+    /* Largura da imagem */
+    height: 250px;
+    /* Altura da imagem */
+    border-radius: 14px
+    /* Arrendoda as bordas */
+}
+table, tr, td, th{
+    border: 2px solid rgb(0, 0, 0);
+    /* Borda: Espessura estilo cor */
+    border-collapse: collapse;
+    /* Unindo as bordas em uma */
+    margin:auto;
+    /* Centralizando a tabela */
+    margin-bottom: 20px;
+    /* Margem inferior da tabela */
+}

@@ -1,0 +1,12 @@
+:root{
+    --cor0: #000;
+    --cor1: rgb(22, 207, 142);
+    --cor2: #000;
+    --cor3: yellow;
+    --primary-color: rgb(90, 207, 195);;
+}
+
+
+h6{
+    background-color: greenyellow;
+}

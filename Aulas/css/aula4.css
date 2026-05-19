@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    /* Zerando as margens padrão */
+    padding: 0;
+    /* Zerando o espaçamento interno */
+    box-sizing: border-box;
+    /* Faz com que padding e borda não aumentem o tamanho final
+    do elemento */
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* Fonte */
+    background-color:rgb(235, 235, 235);
+    /* Cor do fundo */
+    color: #333
+    /* Cor do texto */
+}
+header{
+    background: linear-gradient(to right, #4a7e8d, #7bae9f);
+    /* Fundo degradê */
+    color: white;
+    /* Cor do texto */
+    text-align: center;
+    /* Centralizar o texto */
+    padding: 30px;
+    /* Cria espaço interno */
+}
+nav{
+    display: flex;
+    /* Item do lado */
+    justify-content: center;
+    /* Centralizar os links do meio */
+    gap: 20px;
+    /* Cria espaço entre os links */
+    background-color: #1f2923;
+    /* Cor do fundo */
+    padding: 15px;
+    /* Espaço interno */
+}
+nav a{
+    color: white;
+    /* Cor do texto */
+    text-decoration: none;
+    /* Removendo o sublinhado */
+    font-weight: bold;
+    /* Negrito */
+}
+nav a:hover{
+    /* Aplica o estilo quando o mouse passa em cima */
+    color: #4a7e8d;
+    /* Muda cor do texto */
+}
+main{
+    max-width: 900px;
+    /* Largura maxima */
+    margin: 30px auto;
+    /* Margem superior e inferior e centralizando */
+    padding: 20px;
+    /* Espaço interno */
+}
+section{
+    margin-bottom: 30px;
+    /* Margem abaixo */
+}
+article{
+    background-color: white;
+    /* Cor do fundo */
+    padding: 20px;
+    /* Espaço interno */
+    margin-top: 15px;
+    /* Margim acima */
+    border-radius: 12px;
+    /* Arredondando as bordas */
+}
+
+article:first-of-type button{
+    /* Seleciona o botão que está dentro do primeiro article */
+    padding: 10px 20px;
+    /* Criando espaço interno */
+    border: none;
+    /* Removendo a borda */
+    background-color: #4a7e8d;
+    /* Cor do fundo */
+    color: white;
+    /* Cor do texto */
+    border-radius: 8px;
+    /* Arredonda as bordas */
+}
+article:first-of-type button:hover{
+    background-color: #7bae9f;
+    /* Cor do fundo */
+    transform: scale(1.02);
+    /* Aumenta o tamanho do botão */
+}
+
+article:nth-of-type(2) button{
+    /* Seleciona o botão que está dentro do primeiro article */
+    padding: 10px 20px;
+    /* Criando espaço interno */
+    border: none;
+    /* Removendo a borda */
+    background-color: #5e8c81;
+    /* Cor do fundo */
+    color: white;
+    /* Cor do texto */
+    border-radius: 8px;
+    /* Arredonda as bordas */
+}
+article:nth-of-type(2) button:active{
+    /* Efeito ao clicar */
+    background-color: #3d6d63;
+    /* Cor do fundo */
+    transform: scale(0.9);
+    /* Aumenta o tamanho do botão */
+}
+
+article:nth-of-type(3) input{
+    padding: 10px;
+    /* Criando espaço interno */
+    border: 2px solid #ccc;
+    /* Cor do fundo */
+    color: black;
+    /* Cor do texto */
+    border-radius: 8px;
+    /* Arredonda as bordas */
+    outline: none;
+}
+article:nth-last-of-type(3) input:focus{
+    background-color: aqua;
+}
+
+article:nth-of-type(4) a{
+    color: #7bae9f;
+    /* Cor do texto */
+    text-decoration: none;
+    /* Removendo o sublinhado */
+    font-weight: bold;
+    /* Negrito */
+}
+
+article:nth-of-type(5) ul{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+article:nth-of-type(5) li:nth-child(2){
+    background-color: #7bae9f;
+    padding: 5px;
+    border-radius: 5px;
+}
+aside{
+    background-color: #fff8dc;
+    padding: 20px;
+    margin: 30px;
+    border-left: 5px solid orange;
+}
+footer{
+    background-color: #1f2923;
+    color:white;
+    padding: 20px;
+    text-align: center;
+}

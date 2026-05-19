@@ -1,0 +1,43 @@
+body{
+    background-color:chartreuse;
+    /* Muda a cor do fundo */
+    background: linear-gradient(to right, rgb(0, 208, 255), rgb(255, 0, 0));
+    /* Gradiente do fundo */
+}
+img{
+    height: auto;
+    /* Altura */
+    width: 60%;
+    /* Largura */
+    border-radius: 5px;
+    /* Arredondando as bordas */
+}
+header{
+    background-color: firebrick;
+    /* Cor do fundo do elemento */
+    padding: 10px;
+    /* Espaço interno */
+}
+nav{
+    display: flex;
+    /* Alinhando a informação*/
+    gap: 30%;
+    /* Espaço entre os botões */
+}
+nav a {
+    color: rgb(254, 242, 242);
+    /* Cor do texto */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* Tipo da fonte */
+    text-decoration: none;
+    /* Retirando o sublinado */
+    font-weight: bold;
+    /* Negrito */
+}
+main{
+    background-color: firebrick;
+    text-align: center;
+    /* Centralizando o texto */
+    border-radius: 5%;
+    /* Arredondando as borda */
+}
