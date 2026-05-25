@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Responsive Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Faviicon Tag -->
+    <!-- <link rel="icon" href="https://www.w3schools.com/favicon.ico" type=image/jpg> -->
+    <link rel="icon" type="image/jpg" href="/icon/favoicon.jpg">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <title>DS: CRIANDO AS TURMAS DE DESENVOLVIMENTO DE SISTEMAS</title>
+    <meta name="description" content="Aplicação para ajudar as empressas com o problema da soda caustica">
+    <meta name="keywords" content="ds, desenvolvimento">
+    <meta name="author" content="Lucas Marangoni, 11989053387, lucas.marangoni2008@gmail.com">
+</head>
+
+<body>
+    <header>
+        <nav class="menu principal">
+            <ul>
+                <li><a href="#">Lellis - A</a></li>
+                <li><a href="#">Lellis - B</a></li>
+                <li><a href="#">Pinto do Amaral - A</a></li>
+                <li><a href="#">Pinto do Amaral - B</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <section>
+                <h1>TURMAS DE <mark><abbr title="DESENVOLVIMENTO DE SISTEMAS">DS</abbr></mark> SENAI MK </h1>
+            <section>
+                <header>
+                    <h2>Lellis - A</h2>
+                </header>
+                <div>
+                    <ul class="listaAlunos lellis" id="alunosLellisItoA">
+                        <li>Lucas</li>
+                        <li>Goatão</li>
+                        <li>Pedro beta</li>
+                    </ul>
+                </div>
+                <footer>
+                    <div>Quantidade de Alunos:
+                        <!-- <mark id="qtdAlunosLellisItoA"></mark> -->
+                        <p id="qtdAlunosLellisItoA"><mark>0</mark></p>
+                    </div>
+                </footer>
+            </section>
+
+            <section>
+                <header>
+                    <h2>Lellis - B</h2>
+                </header>
+                <div>
+                    <ul class="listaAlunos" id="alunosLellisItoB">
+                        <li>Iran</li>
+                        <li>Carlos</li>
+                    </ul>
+                </div>
+                <footer>
+                    <h3>Quantidade de Alunos <mark>X</mark></h3>
+                </footer>
+            </section>
+
+            <section>
+                <header>
+                    <h2>Pinto do Amaral - A</h2>
+                </header>
+                <div>
+                    <ul class="listaAlunos" id="alunosPintoAmaralA">
+                        <li>Ana</li>
+                        <li>...</li>
+                    </ul>
+                </div>
+                <footer>
+                    <h3>Quantidade de Alunos <mark>X</mark></h3>
+                </footer>
+            </section>
+
+            <section>
+                <header>
+                    <h2>Pinto do Amaral - B</h2>
+                </header>
+                <div>
+                    <ul class="listaAlunos" id="alunosPintoAmaralB">
+                        <li>João</li>
+                        <li>...</li>
+                    </ul>
+                </div>
+                <footer>
+                    <h3>Quantidade de Alunos <mark>X</mark></h3>
+                </footer>
+            </section>
+        </section>
+    </section>
+    <footer>
+        <p>Desenvolvido por <b><mark><a href="#">LucasMarangoni</a></mark></b>  </p>
+    </footer>
+
+    <script>
+    function contarQuantidadeAlunosTurma(listaAlunos, qtdListaAlunos) {
+        const lista = document.getElementById(listaAlunos);
+        const quantidade = lista.querySelectorAll("li").length;
+
+        document.getElementById(qtdListaAlunos).textContent = quantidade;
+    }
+
+    contarQuantidadeAlunosTurma('alunosLellisItoA', 'qtdAlunosLellisItoA');
+</script>
+</body>
+
+</html>
+
